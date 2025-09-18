@@ -11,7 +11,7 @@ const slides = [
   },
   {
     id: 3,
-    img: "/public/cover img1.jpg",
+    img: "cover img1.jpg",
   },
   {
     id: 4,

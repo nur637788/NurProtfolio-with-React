@@ -5,63 +5,63 @@ import Pcard from '../Components/Pcard';
 function Projects() {
 const items= [
     {
-      img:'/public/my contact img.png',
+      img:'/my contact img.png',
       title:'My Contact Website',
       desc:'Clean bulding website, semantic, and SEO-friendly website using React and Tailwind & Responsive.',   
       code:'https://github.com/nur637788/Contact-Website',
       live:'https://nur-637788.netlify.app/'
     },
     {
-      img:'/public/uiux img.png',
+      img:'/uiux img.png',
       title:'Morden UI/UX Tools',
       desc:'Strong design Morden UI/UX tools website Using HTML, CSS, JS . ',   
       code:'https://github.com/nur637788/ui-ux-website',
       live:'https://uiuxweb.netlify.app/'
     },
     {
-      img:'/public/nur express img.png',
+      img:'/nur express img.png',
       title:'Buy & sell Website',
       desc:'Create a websites dynamic and Functional, Nur_Express Website Using React and Tailwind & Responsive.',   
       code:'https://github.com/nur637788/React-App',
       live:'https://nur-expressbd.netlify.app/'
     },
     {
-      img:'/public/noyon express img.png',
+      img:'/noyon express img.png',
       title:'E-Commarce Project',
       desc:'A static web page for E-Commarce Website Using Language from HTML, CSS, JS ',   
       code:'https://github.com/nur637788/E-commerce-Website',
       live:'https://ecommerceproje.netlify.app/'
     },
     {
-      img:'/public/clock img.png',
+      img:'/clock img.png',
       title:'Digital Clock',
       desc:'Dynamic & Functional Web Page, building single-page applications with JavaScript. ', 
       code:'https://github.com/nur637788/Digital-clock-Namaj-Schedule',
       live:'https://digitalclocknamajschedule.netlify.app/'  
     },
     {
-      img:'/public/product img.png',
+      img:'/product img.png',
       title:'E-commarce Website',
       desc:'Static single page web appliction for E-Commarce Website Using HTM, CSS & Responsive.',   
       code:'https://github.com/nur637788/Responsive-E-Commerce-website',
       live:'https://responsiveecommercsite.netlify.app/'
     },
      {
-      img:'/public/protfolio img.png',
+      img:'/protfolio img.png',
       title:'My Protfolio',
       desc:'Able to deploy modern web apps easily on Netlify. Skilled in handling domains, continuous deployment, and hosting.',   
       code:'https://github.com/nur637788/Nur-Protfilio',
       live:'https://nur637788protfolio.netlify.app/'
     },
      {
-      img:'/public/toll img.png',
+      img:'/toll img.png',
       title:'Toll Managment',
       desc:'A UI concept for managing vehicle entries and payments efficiently, Using HTML,CSS, JS .',  
       code: 'https://github.com/nur637788/Toll-Plazza-Management-System' ,
       live: 'https://tollplazzamanagement.netlify.app/'
     },
     {
-      img:'/public/Website protfolio img.png',
+      img:'/Website protfolio img.png',
       title:'Protfolio Website',
       desc:'A user-friendly parsonal protfolio website vesiual & responsive design, using HTML,CSS & Responsive.',  
       code: 'https://github.com/nur637788/NurDev.-Protfolio' ,

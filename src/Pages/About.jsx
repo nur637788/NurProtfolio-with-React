@@ -18,7 +18,7 @@ const About = () => {
           <span className="font-medium text-gray-800 dark:text-white"> React & TailwindCSS</span>.
         </p>
 
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 text-amber-50 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 text-amber-50 '>
           <div className='mb-8 p-1 rounded-lg border-5 border-blue-700 hover:shadow-2xl hover:shadow-cyan-600 transition duration-300 h-96' >
             <p><span className='font-bold text-pink-500 underline'>Who I Am</span> <br />
               I'm a passionate developer and designer from Bangladesh with over 01 years of experience creating digital solutions. My journey began when I first discovered my love for coding in institute, and since then I've been dedicated to crafting exceptional user experiences.</p>
@@ -33,8 +33,8 @@ const About = () => {
            
           </div>
 
-          <div className='hover:shadow-2xl hover:shadow-cyan-700 h-86 lg:h-80 mb-10'>
-             <img className='rounded-lg border-5 border-blue-700 ' src="/public/cover img1.jpg"  alt="cover img1" />
+          <div className='hover:shadow-2xl hover:shadow-cyan-700 h-86 mb-15 '>
+             <img className='rounded-lg border-5 border-blue-700 w-full h-96 object-cover' src="/cover img1.jpg"  alt="cover img1" />
           </div>
         </div>
       </div>
