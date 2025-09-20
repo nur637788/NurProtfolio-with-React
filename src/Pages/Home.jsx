@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-pink-500 via-blue-600 to-purple-600 text-white">
       <div className="text-center">
@@ -8,7 +10,7 @@ const Home = () => {
         <p className="text-lg mb-6">
           This is a simple homepage styled with <span className="font-semibold">Tailwind CSS</span>.
         </p>
-        <button className="px-6 py-2 bg-white text-purple-600 font-semibold rounded-full shadow-md hover:bg-gray-300 transition duration-300">
+        <button onClick={() => navigate("/about")} className="px-6 py-2 bg-white text-purple-600 font-semibold rounded-full shadow-md hover:bg-gray-300 transition duration-300">
           Get Started
         </button>
       </div>

@@ -19,7 +19,7 @@ const About = () => {
         </p>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5 text-amber-50 '>
-          <div className='mb-8 p-1 rounded-lg border-5 border-blue-700 hover:shadow-2xl hover:shadow-cyan-600 transition duration-300 h-96' >
+          <div className='mb-8 p-1 rounded-lg border-5 border-blue-700 dark:bg-gray-900 hover:shadow-2xl hover:shadow-cyan-600 transition duration-300 h-96' >
             <p><span className='font-bold text-pink-500 underline'>Who I Am</span> <br />
               I'm a passionate developer and designer from Bangladesh with over 01 years of experience creating digital solutions. My journey began when I first discovered my love for coding in institute, and since then I've been dedicated to crafting exceptional user experiences.</p>
             <h2 className='font-bold underline text-pink-500'>Study Info:</h2>

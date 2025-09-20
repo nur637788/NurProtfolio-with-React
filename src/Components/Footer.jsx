@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaLinkedinIn,  FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaWhatsapp, FaGithub } from "react-icons/fa";
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 const Footer = () => {
   return (
@@ -27,8 +27,8 @@ const Footer = () => {
             <a href="https://www.instagram.com/nur637788/" target="_blank" className="p-2 bg-black hover:bg-blue-400 text-white rounded-md">
               <FaInstagram />
             </a>
-            <a href="mailto:mdnoyon631234@gmail.com" className="p-2 bg-black hover:bg-blue-400 text-white rounded-md">
-              <FaEnvelope />
+            <a href="https://www.github.com/nur637788/" target="_blank"  className="p-2 bg-black hover:bg-blue-400 text-white rounded-md">
+              <FaGithub />
             </a>
           </div>
         </div>
@@ -62,16 +62,18 @@ const Footer = () => {
           <h3 className="font-bold mb-4">Contact Info</h3>
           <div className="flex items-center space-x-3 mb-3">
             <div className="p-2 bg-black hover:bg-blue-400 text-white rounded-md">
-              <FiPhone />
+              <FaWhatsapp />
             </div>
-            <span className="text-sm text-black hover:underline hover:font-bold"><a href="tel:+88 01321231802">+88 01749535688</a></span>
+            <span className="text-sm text-black hover:underline hover:font-bold"><a href="https://wa.me/<8801749535688>" target="_blank">+88 01749535688</a></span>
           </div>
+
           <div className="flex items-center space-x-3 mb-3">
             <div className="p-2 bg-black hover:bg-blue-400 text-white rounded-md">
               <FiMail />
             </div>
-            <span className="text-sm text-black hover:underline hover:font-bold"><a href="mailto:mdnoyon631234@gmail.com">mdnoyon631234@gmail.com</a></span>
+            <span className="text-sm text-black hover:underline hover:font-bold"><a href="mailto:mdnoyon631234@gmail.com" target="_blank">Send Mail</a></span>
           </div>
+
           <div className="flex items-center space-x-3">
             <div className="p-2 bg-black hover:bg-blue-400 text-white rounded-md">
               <FiMapPin />
